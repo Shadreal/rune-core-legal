@@ -1,0 +1,15 @@
+Rune Core is made by Shadreal.
+
+The save stays on your device. It holds your character name, a local id, and your play data. Rune Core does not send that save to Shadreal. There is no account, no ads, and no tracking.
+
+Deleting the app deletes the save on that device.
+
+If you buy something from Google Play or the App Store, that store handles the payment. Rune Core does not take card numbers. Those stores have their own privacy policies.
+
+Contact is in Settings. When you tap Send, the app sends the message you typed, and a reply address only if you typed one, to a Google Form owned by Shadreal. The answers are stored in a Google Sheet and are used only to answer you. The app does not send your character name, local id, save, or device id with that message.
+
+The store listing contact is curiousferret12@gmail.com.
+
+This page is also published at https://shadreal.github.io/rune-core-legal/privacy.html
+
+Last updated 11 October 2026.

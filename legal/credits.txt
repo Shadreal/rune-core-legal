@@ -1,0 +1,9 @@
+Rune Core
+A game by Shadreal.
+
+Rune Core is built with Godot Engine. Godot Engine is copyright (c) the Godot Engine contributors and is available under the MIT license.
+https://godotengine.org/license
+
+Art and audio in Rune Core are by Shadreal, except where a file names someone else.
+
+Last updated 11 October 2026.

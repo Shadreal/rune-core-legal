@@ -1,0 +1,11 @@
+Rune Core is provided as-is by Shadreal. Play can change while the game is in testing.
+
+Hardcore mode ends that save when your character dies. That death is part of the mode.
+
+A purchase in this test build can be paid with in-game gold. That gold is not real money. When packs are sold on Google Play or the App Store, they are digital items billed by that store, in the currency the store shows. Rune Core does not run its own checkout and does not take card numbers. Refunds for store purchases follow that store's rules.
+
+Contact Shadreal from Settings, or at curiousferret12@gmail.com.
+
+This page is also published at https://shadreal.github.io/rune-core-legal/terms.html
+
+Last updated 11 October 2026.

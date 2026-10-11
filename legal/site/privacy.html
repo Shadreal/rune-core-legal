@@ -5,61 +5,37 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Rune Core — Privacy</title>
 <style>
-:root {
-  --ink: #f4efe6;
-  --gold: #e2c27a;
-  --gold-dim: #8a6e3d;
-  --bg: #100e0b;
-}
-body {
-  margin: 0;
-  min-height: 100vh;
-  color: var(--ink);
-  background:
-    radial-gradient(ellipse at top, #2c261c 0%, var(--bg) 58%);
-  font: 19px/1.65 Palatino, "Palatino Linotype", Georgia, serif;
-}
-main {
-  max-width: 40rem;
-  margin: 0 auto;
-  padding: 3rem 1.5rem 4.5rem;
-}
-header {
-  border-bottom: 1px solid var(--gold-dim);
-  margin-bottom: 1.75rem;
-  padding-bottom: 1.15rem;
-}
-.mark {
-  margin: 0 0 0.4rem;
-  color: var(--gold);
-  font-size: 0.78rem;
-  letter-spacing: 0.32em;
-  text-transform: uppercase;
-}
-h1 {
-  margin: 0 0 1rem;
-  font-size: 2.05rem;
-  font-weight: normal;
-}
-nav a {
-  color: var(--gold);
-  text-decoration: none;
-  margin-right: 1.35rem;
-  letter-spacing: 0.03em;
-}
-nav a:hover { text-decoration: underline; }
-p { margin: 0 0 1.05rem; }
-a { color: var(--gold); }
+body { margin: 0; min-height: 100vh; background: #0e0c0a; color: #f3eee4; font: 18px/1.65 Georgia, "Palatino Linotype", serif; }
+.wrap { max-width: 42rem; margin: 0 auto; padding: 3rem 1.25rem 4.5rem; }
+.card { background: #1a1612; border: 1px solid #3d3426; border-top: 3px solid #c6a15a; border-radius: 14px; padding: 2rem 1.6rem 2.2rem; }
+.mark { margin: 0 0 0.35rem; color: #c6a15a; font-size: 0.75rem; letter-spacing: 0.28em; text-transform: uppercase; }
+h1 { margin: 0 0 1.2rem; font-size: 2.15rem; font-weight: normal; }
+nav { display: flex; flex-wrap: wrap; gap: 0.55rem; margin: 0 0 1.6rem; }
+nav a { color: #e2c27a; text-decoration: none; border: 1px solid #4a3e2c; border-radius: 999px; padding: 0.35rem 0.9rem; }
+nav a.here { background: #c6a15a; color: #1a1612; border-color: #c6a15a; }
+p { margin: 0 0 1rem; }
+.muted { color: #a39888; font-size: 0.92rem; }
+a { color: #e2c27a; }
 </style>
 </head>
 <body>
-<main>
-<header>
+<main class="wrap">
+<article class="card">
 <p class="mark">Rune Core</p>
 <h1>Privacy</h1>
-<nav><a href="credits.html">Credits</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
-</header>
-<p>Rune Core is made by Shadreal.</p><p>The save stays on your device. It holds your character name, a local id, and your play data. Rune Core does not send that save to Shadreal. There is no account, no ads, and no tracking.</p><p>Deleting the app deletes the save on that device.</p><p>If you buy something from Google Play or the App Store, that store handles the payment. Rune Core does not take card numbers. Those stores have their own privacy policies.</p><p>Contact is in Settings. When you tap Send, the app sends the message you typed, and a reply address only if you typed one, to a Google Form owned by Shadreal. The answers are stored in a Google Sheet and are used only to answer you. The app does not send your character name, local id, save, or device id with that message.</p><p>The store listing contact is curiousferret12@gmail.com.</p><p>Last updated 11 October 2026.</p>
+<nav>
+<a href="credits.html">Credits</a>
+<a class="here" href="privacy.html">Privacy</a>
+<a href="terms.html">Terms</a>
+</nav>
+<p>Rune Core is made by Shadreal.</p>
+<p>The save stays on your device. It holds your character name, a local id, and your play data. Rune Core does not send that save to Shadreal. There is no account, no ads, and no tracking.</p>
+<p>Deleting the app deletes the save on that device.</p>
+<p>If you buy something from Google Play or the App Store, that store handles the payment. Rune Core does not take card numbers. Those stores have their own privacy policies.</p>
+<p>Contact is in Settings. When you tap Send, the app sends the message you typed, and a reply address only if you typed one, to a Google Form owned by Shadreal. The answers are stored in a Google Sheet and are used only to answer you. The app does not send your character name, local id, save, or device id with that message.</p>
+<p>The store listing contact is curiousferret12@gmail.com.</p>
+<p class="muted">Last updated 11 October 2026.</p>
+</article>
 </main>
 </body>
 </html>
